@@ -74,4 +74,4 @@ Begin with Module 1 to establish the foundational ROS 2 concepts, then progress 
 
 The hands-on, simulation-first approach allows you to experiment safely before considering hardware implementations. All code examples are tested and verified to ensure you can successfully reproduce the results.
 
-Start your journey into Physical AI by exploring the [first module](./module-1-robotic-nervous-system/index.md) on the Robotic Nervous System!
+Start your journey into Physical AI by exploring the [first module](./module-1-robotic-nervous-system/) on the Robotic Nervous System!

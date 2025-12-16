@@ -107,7 +107,7 @@ const config: Config = {
             },
             {
               label: 'Physical AI & Robotics',
-              to: '/docs/module-1-robotic-nervous-system/index',
+              to: '/docs/module-1-robotic-nervous-system/',
             },
           ],
         },
