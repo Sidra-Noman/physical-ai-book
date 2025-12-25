@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            A Hands-On Path to Robotics, Simulation, and Embodied Intelligence
+            Start Learning 
           </Link>
         </div>
       </div>

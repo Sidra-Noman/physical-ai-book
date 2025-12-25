@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Embodied Intelligence',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn how to create AI systems that interact with the physical world,
+        bridging the gap between digital intelligence and embodied robotics.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Simulation to Reality',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Master the complete pipeline from physics simulation to real-world
+        robot deployment with Gazebo, Unity, and NVIDIA Isaac Sim.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'AI-Driven Robotics',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Build cognitive robots that understand voice commands, perceive their
+        environment, and execute complex tasks autonomously.
       </>
     ),
   },
@@ -45,12 +45,14 @@ const FeatureList: FeatureItem[] = [
 function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+      <div className={`${styles.featureCard} text--center`}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p>{description}</p>
+        </div>
       </div>
     </div>
   );
